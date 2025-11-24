@@ -14,7 +14,7 @@ func (m *Shared) ContainerEcho(stringArg string) *dagger.Container {
 		WithExec([]string{"echo", stringArg})
 }
 
-func (m *Shared) DeploySwa(
+func (m *Shared) DeployRemote(
 	ctx context.Context,
 	source *dagger.Directory,
 	appName string,

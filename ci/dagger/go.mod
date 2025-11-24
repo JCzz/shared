@@ -1,4 +1,4 @@
-module dagger/shared
+module github.com/jczz/shared/ci/dagger
 
 go 1.25.3
 

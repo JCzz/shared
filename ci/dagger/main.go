@@ -4,7 +4,7 @@ import (
 	"context"
 
 	// IMPORTANT: this must match your module path in go.mod
-	"dagger/shared/internal/dagger"
+	"github.com/jczz/shared/ci/dagger/internal/dagger"
 )
 
 type Shared struct{}

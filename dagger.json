@@ -1,0 +1,6 @@
+{
+  "name": "shared",
+  "sdk": {
+    "source": "go"
+  }
+}
